@@ -1,3 +1,66 @@
+//2. Ejercicio 2 - Practica de debugging/git/ punteros Repaso de punteros
 //2. a)Incluya en su repositorio una regla de cómo ignorar un archivo ignorado.txt
 
 ignorado.txt
+
+//4. Genere en el repositorio un archivo que se llame tp1_1.c.
+//d) Implemente el archivo .gitignore correspondiente usando la página https://www.gitignore.io/ para no incluir los archivos que considere innecesarios
+
+# Created by https://www.toptal.com/developers/gitignore/api/c
+# Edit at https://www.toptal.com/developers/gitignore?templates=c
+
+### C ###
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# End of https://www.toptal.com/developers/gitignore/api/c

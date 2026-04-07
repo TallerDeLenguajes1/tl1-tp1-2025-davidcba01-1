@@ -16,14 +16,14 @@ Se recomienda crearlo al inicio del proyecto, aunque puede agregarse en cualquie
 
 Se crea un archivo llamado .gitignore y dentro se escriben las reglas indicando qué archivos ignorar.
 
+
+
 Ejemplo:
 
 \*.exe
 \*.o
 .vscode/
 ignorado.txt
-
-
 
 
 
@@ -63,8 +63,6 @@ Soluciones aplicadas:
 
 
 
-
-
 \### Código misterioso
 
 
@@ -80,4 +78,44 @@ Primero invierte sus dígitos, luego divide el resultado por 2 y finalmente le s
 Durante la depuración se observó cómo el valor iba cambiando en cada función:
 
 452 → 254 → 127 → 137
+
+
+
+\### Punto 4.g
+
+
+
+En los apartados 2 y 3 se obtiene el mismo resultado porque:
+
+
+
+\- En el punto 2 se muestra la dirección de memoria almacenada en el puntero.
+
+\- En el punto 3 se muestra la dirección de memoria de la variable.
+
+
+
+Ambos valores coinciden porque el puntero fue inicializado con la dirección de la variable, es decir:
+
+
+
+p = \&x
+
+
+
+Por lo tanto, el puntero almacena exactamente la misma dirección de memoria que la variable.
+
+
+
+En el punto 4 se obtiene la dirección de memoria del puntero, la cual es diferente a las anteriores porque el puntero también es una variable y ocupa su propio espacio en memoria.
+
+
+
+En conclusión:
+
+
+
+\- p y \&x representan la misma dirección.
+
+\- \&p representa una dirección distinta, ya que corresponde al puntero en sí mismo.
 
